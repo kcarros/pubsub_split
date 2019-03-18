@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+google-cloud-bigquery = "*"
+python-dateutil = "*"
+
+[dev-packages]
+pytest-cov = "*"
+"pytest-flake8" = "*"
+pytest-black = "*"
+wheel = "*"
+twine = "*"
+
+[requires]
+python_version = "3.7"
